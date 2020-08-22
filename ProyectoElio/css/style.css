@@ -1,0 +1,20 @@
+@charset "utf-8"; /*Especifica la codificación de caracteres usada */
+a{  /* Especifica los atributos que van a poseer las etiquetas a */
+	font-size:26px; 
+	display: block;
+	float:left;
+	width: 200px;
+	height: 40px;
+	padding= 6px;
+	line-height=40px;
+	text-decoration:none;
+	text-align:center;
+	color:black;
+}
+
+a:hover{ /*Especifica los atributos de la etiqueta a cuando el puntero del mouse apunta*/
+    	font-size:30px;
+	font-style:italic;
+	color:white;
+	background:black;
+}
